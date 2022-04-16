@@ -4,16 +4,16 @@ keeps track of your hours played. By default it isset to update every 15 minutes
 ## features:
 
 ### chat command:
-⋅⋅* default: /time
-⋅⋅* can be changed in cfg
+1. default: /time
+2. can be changed in cfg
     
 ### update:
-⋅⋅* intrival: every 15 minutes
-⋅⋅* can be changed in cfg
+1. intrival: every 15 minutes
+2. can be changed in cfg
     
 ### database:
-⋅⋅* table Name: vrp_hours_played
-⋅⋅* table created automatically
+1. table Name: vrp_hours_played
+2. table created automatically
     
   
 
