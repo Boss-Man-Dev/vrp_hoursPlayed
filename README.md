@@ -4,8 +4,8 @@ keeps track of your hours played. By default it isset to update every 15 minutes
 ## features:
 
 ### chat command:
-1. default: /time
-2. can be changed in cfg
+* default: /time
+* can be changed in cfg
     
 ### update:
 1. intrival: every 15 minutes
