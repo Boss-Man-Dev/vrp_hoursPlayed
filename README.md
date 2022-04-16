@@ -8,12 +8,12 @@ keeps track of your hours played. By default it isset to update every 15 minutes
 * can be changed in cfg
     
 ### update:
-1. intrival: every 15 minutes
-2. can be changed in cfg
+* intrival: every 15 minutes
+* can be changed in cfg
     
 ### database:
-1. table Name: vrp_hours_played
-2. table created automatically
+* table Name: vrp_hours_played
+* table created automatically
     
   
 
