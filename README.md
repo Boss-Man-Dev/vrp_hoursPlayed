@@ -1,19 +1,19 @@
 # vrp_hoursPlayed
 keeps track of your hours played. By default it isset to update every 15 minutes.
 
-features:
+## features:
 
-  chat command:
-    default: /time
-    can be changed in cfg
+### chat command:
+⋅⋅* default: /time
+⋅⋅* can be changed in cfg
     
-  update:
-    intrival: every 15 minutes
-    can be changed in cfg
+### update:
+⋅⋅* intrival: every 15 minutes
+⋅⋅* can be changed in cfg
     
-  database:
-    table Name: vrp_hours_played
-    created automatically
+### database:
+⋅⋅* table Name: vrp_hours_played
+⋅⋅* table created automatically
     
   
 
