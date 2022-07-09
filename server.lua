@@ -48,6 +48,8 @@ function Hours.event:getHours(source)
 	local user = vRP.users_by_source[source]
 	local row = vRP:query("vRP/get_hours_played", {user_id = user.cid})
 	local hours = row[1].hours_played
+	if not hours then hours = 0 end
+	
 	local minutes = hours - math.floor(tonumber(hours))
 	hoursPlayed[user.cid] = tonumber(hours)
 	
